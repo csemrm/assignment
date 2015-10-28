@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/server/publications.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA;AACA;AACA;AACA","file":"/server/publications.js","sourcesContent":["Meteor.publish('contacts', function() {\n  return Contacts.find();\n});\n\nMeteor.publish('contact', function(_id) {\n  return Contacts.find({_id: _id});\n});\n"]}

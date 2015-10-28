@@ -87,6 +87,8 @@ Contacts.attachSchema(new SimpleSchema({
 }));
 
 
+
+
 Contacts.allow({
     insert: function (userId, contact) {
         // can only create posts where you are the author

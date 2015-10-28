@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/client/autoForm.js"],"names":[],"mappings":"yBAAA;AACA;AACA","file":"/client/autoForm.js","sourcesContent":["Meteor.startup(function () {\n  AutoForm.setDefaultTemplate('ionic');\n});\n"]}
